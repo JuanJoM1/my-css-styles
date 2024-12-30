@@ -1,4 +1,12 @@
 :root {
   --qbk-outlet-header-color-neutrals-0: red !important;
   --qbk-button-color-primary-600: #ff9700 !important;
+
+  cx-page-layout.ProductDetailsPageTemplate cx-page-slot.Summary qbk-product-images {
+    grid-column: 2 !important;
+  }   
+  
+  .qbk-product-images .qbk-product-images {
+    flex-direction: row-reverse !important;
+  }
 }
